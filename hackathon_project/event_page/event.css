@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url("pexels-rodrigo-chable-380091428-18502431.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    margin-top: 2rem;
+    place-self: center;
+    /*----------------- */
+    font-family: "Monoton", sans-serif;
+    font-weight: 500;
+    font-size: 3rem; 
+    font-style: cursive;   
+}
+.container{
+ margin-top: 1rem;
+ /* border: 1px solid; */
+ height: 650px;
+ width: 1000px;   
+ place-self: center;
+ display: flex;
+ justify-content: center;
+ padding: 3rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-self: center;
+    row-gap: 3rem;
+    column-gap: 2.5rem;
+    /* border: 1px solid; */
+    width: 900px;
+    padding: 1.5rem;
+    /* margin: 4rem ; */
+    /* margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem; */
+
+}
+.event{
+    place-self: center;
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    /* From https://css.glass */
+background: rgba(255, 255, 255,0.2);
+border-radius: 16px;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+position: static;
+}
+.event:hover{
+height: 225px;
+width: 230px;
+transition: ease 1s;
+}
