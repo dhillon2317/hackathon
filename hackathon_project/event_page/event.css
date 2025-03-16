@@ -30,7 +30,7 @@ body{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     place-self: center;
-    row-gap: 3rem;
+    row-gap: 4rem;
     column-gap: 2.5rem;
     /* border: 1px solid; */
     width: 900px;
